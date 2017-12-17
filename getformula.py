@@ -158,7 +158,7 @@ def predicate(predicate,subject):
     elif predicate in formulalist:              
         return get_formula(subject)
     else:
-        s="System could not find the item <a> %s </a> for <a> %s </a> " % (predicate,subject)          
+        s="System could not find the item <a> %s </a> for <a> %s </a>" % (predicate,subject)          
         return s 
         
 class FormulaRequestHandler:
